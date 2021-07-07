@@ -1,0 +1,13 @@
+.actif {
+  color: green;
+  background-color: lightgreen;
+}
+.inactif {
+  color: red;
+  background-color: lightcoral;
+}
+
+.disabled {
+  display: none;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>gestion de contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class='text-center'>Gestion de contact</h1>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-12">
+                        <form>
+                            <span><label>Nom: </label>
+                            <input type="text" id="name"></span>
+
+                            <span><label>Prenom: </label>
+                            <input type="text" id="surName"></span>
+
+                            <span><label>Email: </label>
+                            <input type="mail" id="mail"></span>
+
+                            <span><label>Tel: </label>
+                            <input type="tel" id="tel"></span>
+
+                            <label for="account">Pro</label>
+                            <input type="checkbox" id="account" name="account">
+
+
+                            <span  id="divFace">
+                                <span><label>facebook: </label>
+                                <input type="text" id="facebook"></span>
+                            </span>
+                            <span class="disabled" id="divLink">
+                                    <span><label>linkedin: </label>
+                                    <input type="text" id="linkedin"></span>
+                            </span>
+                            <button id='add'>Ajouter</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="row">
+                    <div  class="col-12 ">
+                        <div class="row" id="myContainer">
+
+                        </div>
+                    </div>
+            </div>
+        </div> 
+
+            <script type="text/javascript" src="contact.js"></script>
+            <script type="text/javascript" src="contactPerso.js"></script>
+            <script type="text/javascript" src="contactPro.js"></script>
+            <script type="text/javascript" src="functions.js"></script>
+        <script type="text/javascript" src="app.js">
+        </script>
+</body>
+</html>
